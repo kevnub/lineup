@@ -1,0 +1,422 @@
+<!--
+
+Find and Replace:
+
+(model-page-link)
+(inventory-link)
+-->
+
+<!-- Smooth Scroll to Anchors-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    /*Smooth Scroll*/
+    $(document).ready(function(){
+    $("a").on('click', function(event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top},
+                    800,
+                    function(){window.location.hash = hash;});
+        }});
+    });
+</script>
+
+<link href="nissan-lineup.css" rel="stylesheet" type="text/css">
+
+<h2 class="title">Model Lineup</h2>
+
+<div class="row lineup-navbar">
+    <div class="offset-md-1"></div>
+    <div class="col-6 col-md-2 lineup-flex lineup-vertical-divider"><a href="#cars">Cars</a></div>
+    <div class="col-6 col-md-2 lineup-flex lineup-vertical-divider"><a href="#electric-cars">Electric Cars</a></div>
+    <div class="col-6 col-md-2 lineup-flex lineup-vertical-divider"><a href="#sports-cars">Sports Cars</a></div>
+    <div class="col-6 col-md-2 lineup-flex lineup-vertical-divider"><a href="#crossovers">Crossovers & SUVs</a></div>
+    <div class="col-6 col-md-2 lineup-flex"><a href="#trucks">Trucks</a></div>
+</div>
+<hr class="divide">
+<div class="boot-container">
+    <hr class="slight" align="left">
+    <h3 class="category" id="cars">Cars</h3>
+    <hr class="dotted">
+
+    <div class="row">
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="lineup-card">
+                <div style="text-align: center"><a href="model-page-link" class="model-name">2018.5 Versa</a></div>
+                <img src="images/versa.png" width="100%">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="msrp">Starting msrp</p>
+                        <h4 class="price">$12,310</h4>
+                    </div>
+                    <div class="col-6">
+                        <p class="msrp" align="right">City/HWY MPG</p>
+                        <h4 class="price" align="right">31 / 39</h4>
+                    </div>
+                </div>
+                <a href="model-page-link" class="model-cta">
+                    <span>Explore</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a><br>
+                <a href="inventory-link" class="model-cta">
+                    <span>View Inventory</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="lineup-card">
+                <div style="text-align: center"><a href="model-page-link" class="model-name">2018 Leaf</a></div>
+                <img src="images/leaf.png" width="100%">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="msrp">Starting msrp</p>
+                        <h4 class="price">$29,990</h4>
+                    </div>
+                    <div class="col-6">
+                        <p class="msrp" align="right">Range (miles)</p>
+                        <h4 class="price" align="right">150</h4>
+                    </div>
+                </div>
+                <a href="model-page-link" class="model-cta">
+                    <span>Explore</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a><br>
+                <a href="inventory-link" class="model-cta">
+                    <span>View Inventory</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="lineup-card">
+                <div style="text-align: center"><a href="model-page-link" class="model-name">2018 Sentra</a></div>
+                <img src="images/sentra.png" width="100%">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="msrp">Starting msrp</p>
+                        <h4 class="price">$16,990</h4>
+                    </div>
+                    <div class="col-6">
+                        <p class="msrp" align="right">City/HWY MPG</p>
+                        <h4 class="price" align="right">29 / 37</h4>
+                    </div>
+                </div>
+                <a href="model-page-link" class="model-cta">
+                    <span>Explore</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a><br>
+                <a href="inventory-link" class="model-cta">
+                    <span>View Inventory</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="lineup-card">
+                <div style="text-align: center"><a href="model-page-link" class="model-name">2018 Altima</a></div>
+                <img src="images/altima.png" width="100%">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="msrp">Starting msrp</p>
+                        <h4 class="price">$23,260</h4>
+                    </div>
+                    <div class="col-6">
+                        <p class="msrp" align="right">City/HWY MPG</p>
+                        <h4 class="price" align="right">27 / 38</h4>
+                    </div>
+                </div>
+                <a href="model-page-link" class="model-cta">
+                    <span>Explore</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a><br>
+                <a href="inventory-link" class="model-cta">
+                    <span>View Inventory</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="lineup-card">
+                <div style="text-align: center"><a href="model-page-link" class="model-name">2018 Maxima</a></div>
+                <img src="images/maxima.png" width="100%">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="msrp">Starting msrp</p>
+                        <h4 class="price">$33,270</h4>
+                    </div>
+                    <div class="col-6">
+                        <p class="msrp" align="right">City/HWY MPG</p>
+                        <h4 class="price" align="right">21 / 30</h4>
+                    </div>
+                </div>
+                <a href="model-page-link" class="model-cta">
+                    <span>Explore</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a><br>
+                <a href="inventory-link" class="model-cta">
+                    <span>View Inventory</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<hr class="divide">
+
+<div class="boot-container">
+    <hr class="slight" align="left">
+    <h3 class="category" id="electric-cars">Electric Cars</h3>
+    <hr class="dotted">
+
+    <div class="row">
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="lineup-card">
+                <div style="text-align: center"><a href="model-page-link" class="model-name">2018 Leaf</a></div>
+                <img src="images/leaf.png" width="100%">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="msrp">Starting msrp</p>
+                        <h4 class="price">$29,990</h4>
+                    </div>
+                    <div class="col-6">
+                        <p class="msrp" align="right">Range (miles)</p>
+                        <h4 class="price" align="right">150</h4>
+                    </div>
+                </div>
+                <a href="model-page-link" class="model-cta">
+                    <span>Explore</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a><br>
+                <a href="inventory-link" class="model-cta">
+                    <span>View Inventory</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<hr class="divide">
+<div class="boot-container">
+    <hr class="slight" align="left">
+    <h3 class="category" id="sports-cars">Sports Cars</h3>
+    <hr class="dotted">
+
+    <div class="row">
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="lineup-card">
+                <div style="text-align: center"><a href="model-page-link" class="model-name">2018 GT-R</a></div>
+                <img src="images/gtr.png" width="100%">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="msrp">Starting msrp</p>
+                        <h4 class="price">$99,990</h4>
+                    </div>
+                    <div class="col-6">
+                        <p class="msrp" align="right">Horsepower</p>
+                        <h4 class="price" align="right">600</h4>
+                    </div>
+                </div>
+                <a href="model-page-link" class="model-cta">
+                    <span>Explore</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a><br>
+                <a href="inventory-link" class="model-cta">
+                    <span>View Inventory</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<hr class="divide">
+<div class="boot-container">
+    <hr class="slight" align="left">
+    <h3 class="category" id="crossovers">Crossovers & SUVs</h3>
+    <hr class="dotted">
+
+    <div class="row">
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="lineup-card">
+                <div style="text-align: center"><a href="model-page-link" class="model-name">2018 Kicks</a></div>
+                <img src="images/kicks.png" width="100%">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="msrp">Starting msrp</p>
+                        <h4 class="price">$17,990</h4>
+                    </div>
+                    <div class="col-6">
+                        <p class="msrp" align="right">City/HWY MPG</p>
+                        <h4 class="price" align="right">31 / 36</h4>
+                    </div>
+                </div>
+                <a href="model-page-link" class="model-cta">
+                    <span>Explore</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a><br>
+                <a href="inventory-link" class="model-cta">
+                    <span>View Inventory</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="lineup-card">
+                <div style="text-align: center"><a href="model-page-link" class="model-name">2018.5 Rogue Sport</a></div>
+                <img src="images/rogue-sport.png" width="100%">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="msrp">Starting msrp</p>
+                        <h4 class="price">$22,110</h4>
+                    </div>
+                    <div class="col-6">
+                        <p class="msrp" align="right">City/HWY MPG</p>
+                        <h4 class="price" align="right">25 / 32</h4>
+                    </div>
+                </div>
+                <a href="model-page-link" class="model-cta">
+                    <span>Explore</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a><br>
+                <a href="inventory-link" class="model-cta">
+                    <span>View Inventory</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="lineup-card">
+                <div style="text-align: center"><a href="model-page-link" class="model-name">2018 Murano</a></div>
+                <img src="images/murano.png" width="100%">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="msrp">Starting msrp</p>
+                        <h4 class="price">$30,800</h4>
+                    </div>
+                    <div class="col-6">
+                        <p class="msrp" align="right">City/HWY MPG</p>
+                        <h4 class="price" align="right">21 / 28</h4>
+                    </div>
+                </div>
+                <a href="model-page-link" class="model-cta">
+                    <span>Explore</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a><br>
+                <a href="inventory-link" class="model-cta">
+                    <span>View Inventory</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="lineup-card">
+                <div style="text-align: center"><a href="model-page-link" class="model-name">2018 Pathfinder</a></div>
+                <img src="images/pathfinder.png" width="100%">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="msrp">Starting msrp</p>
+                        <h4 class="price">$31,040</h4>
+                    </div>
+                    <div class="col-6">
+                        <p class="msrp" align="right">City/HWY MPG</p>
+                        <h4 class="price" align="right">20 / 27</h4>
+                    </div>
+                </div>
+                <a href="model-page-link" class="model-cta">
+                    <span>Explore</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a><br>
+                <a href="inventory-link" class="model-cta">
+                    <span>View Inventory</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="lineup-card">
+                <div style="text-align: center"><a href="model-page-link" class="model-name">2018 Armada</a></div>
+                <img src="images/armada.png" width="100%">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="msrp">Starting msrp</p>
+                        <h4 class="price">$46,090</h4>
+                    </div>
+                    <div class="col-6">
+                        <p class="msrp" align="right">Max Towing</p>
+                        <h4 class="price" align="right">8500 lbs</h4>
+                    </div>
+                </div>
+                <a href="model-page-link" class="model-cta">
+                    <span>Explore</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a><br>
+                <a href="inventory-link" class="model-cta">
+                    <span>View Inventory</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<hr class="divide">
+<div class="boot-container">
+    <hr class="slight" align="left">
+    <h3 class="category" id="trucks">Trucks</h3>
+    <hr class="dotted">
+
+    <div class="row">
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="lineup-card">
+                <div style="text-align: center"><a href="model-page-link" class="model-name">2018 Frontier</a></div>
+                <img src="images/frontier.png" width="100%">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="msrp">Starting msrp</p>
+                        <h4 class="price">$18,990</h4>
+                    </div>
+                    <div class="col-6">
+                        <p class="msrp" align="right">City/HWY MPG</p>
+                        <h4 class="price" align="right">19 / 23</h4>
+                    </div>
+                </div>
+                <a href="model-page-link" class="model-cta">
+                    <span>Explore</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a><br>
+                <a href="inventory-link" class="model-cta">
+                    <span>View Inventory</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="lineup-card">
+                <div style="text-align: center"><a href="model-page-link" class="model-name">2018 Titan</a></div>
+                <img src="images/titan.png" width="100%">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="msrp">Starting msrp</p>
+                        <h4 class="price">$30,030</h4>
+                    </div>
+                    <div class="col-6">
+                        <p class="msrp" align="right">City/HWY MPG</p>
+                        <h4 class="price" align="right">15 / 21</h4>
+                    </div>
+                </div>
+                <a href="model-page-link" class="model-cta">
+                    <span>Explore</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a><br>
+                <a href="inventory-link" class="model-cta">
+                    <span>View Inventory</span>
+                    <span style="float: right;"><img class="moveimage" src="images/right-arrow.svg" style="height: 1.2em;"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
